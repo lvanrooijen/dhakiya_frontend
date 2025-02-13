@@ -1,0 +1,50 @@
+.form-wrapper-backdrop {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-wrapper {
+  padding: 30px 30px 12px 30px;
+  position: relative;
+  border-radius: 3px;
+  box-shadow: var(--shadow-soft-fade);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-bg-color);
+}
+.form-wrapper > button {
+  position: absolute;
+  top: -6px;
+  right: 3px;
+}
+.form-wrapper > h2 {
+  width: 81%;
+  padding: 9px;
+  text-align: center;
+  font-size: medium;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border-bottom: 2px solid var(--primary-bg-contrast-color);
+}
+
+.form-wrapper > form {
+  padding: 0 21px 21px 21px;
+  display: flex;
+  gap: 9px;
+  flex-direction: column;
+  align-items: start;
+}
+
+.form-wrapper > button {
+  margin: 9px 0px;
+  background: var();
+}

@@ -1,0 +1,13 @@
+.show-case-container-wrapper {
+  border: 2px solid var(--primary-bg-contrast-color);
+  border-radius: 3px;
+  padding: 0 12px;
+}
+.show-case-container-wrapper > h3 {
+  border-radius: 3px;
+  letter-spacing: 3px;
+  font-size: larger;
+  border-bottom: 2px solid var(--accent-color-primary);
+  margin-left: 9px;
+  padding: 3px 12px;
+}

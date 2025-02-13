@@ -1,0 +1,18 @@
+.flashcard-deck-stats-wrapper {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.flashcard-deck-stats-item {
+  box-shadow: var(--shadow-box);
+  padding: 6px 21px;
+  border-radius: 3px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 81%;
+  text-transform: capitalize;
+}

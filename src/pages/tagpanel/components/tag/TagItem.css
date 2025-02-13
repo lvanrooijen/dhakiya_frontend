@@ -1,0 +1,55 @@
+.tag-list-item-wrapper {
+  padding: 12px 9px;
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  box-shadow: var(--shadow-box);
+  border-radius: 3px;
+}
+
+.tag-list-item-wrapper > div:first-child {
+  margin-right: auto;
+  border-right: none;
+}
+
+.tag-list-item-wrapper > div:first-child > form {
+  display: flex;
+  gap: 6px;
+  min-width: 270px;
+}
+
+.tag-list-item-wrapper > div:first-child > form > input[type="text"] {
+  font-family: var(--main-text-font);
+  border: none;
+  outline: none;
+  padding: 0px 6px;
+  min-width: 210px;
+  border-radius: 3px;
+}
+.input-locked {
+  background-color: var(--primary-bg-color);
+  color: var(--text-color);
+}
+
+.input-enabled {
+  background-color: var(--primary-bg-contrast-color);
+  color: var(--text-contrast-color);
+}
+.tag-list-item-wrapper > div:first-child > form > input[type="submit"] {
+  font-size: 21px;
+  background-color: var(--encourage-color);
+  border: none;
+  color: var(--text-color);
+  border-radius: 3px;
+  padding: 0 6px;
+  width: 45px;
+  text-align: center;
+  box-shadow: var(--shadow-soft-fade);
+  cursor: pointer;
+}
+.tag-list-item-wrapper > div:first-child > form > input[type="submit"]:hover {
+  background-color: var(--encourage-color-hover);
+}

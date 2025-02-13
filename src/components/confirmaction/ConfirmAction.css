@@ -1,0 +1,26 @@
+.confirm-action-wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.confirm-action-wrapper > div {
+  background: var(--primary-bg-contrast-color);
+  padding: 30px;
+  border-radius: 3px;
+  color: var(--text-contrast-color);
+  font-weight: 600;
+}
+.confirm-action-wrapper > div > div {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,8 @@
+.tag-list-wrapper {
+  gap: 3px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  list-style-type: none;
+  width: 100%;
+}

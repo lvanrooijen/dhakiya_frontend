@@ -1,0 +1,17 @@
+.text-field-wrapper {
+  display: flex;
+  gap: 18px;
+  padding: 9px;
+  color: var(--text-color);
+  width: 100%;
+}
+
+.text-field-wrapper > input {
+  border-radius: 3px;
+  min-width: 240px;
+  font-family: var(--main-text-font);
+}
+
+.text-field-wrapper > label {
+  text-transform: capitalize;
+}

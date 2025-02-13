@@ -1,0 +1,50 @@
+/* base body style */
+
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: var(--text-color);
+}
+
+/* css variables */
+:root {
+  /* primary colors */
+  --text-color: rgb(255, 255, 255);
+  --text-contrast-color: #333333;
+  --primary-bg-color: #ffffff;
+  --primary-bg-contrast-color: #333333;
+  --primary-hover-color: #ededed;
+  --primary-contrast-hover-color: #2e2e2e;
+
+  /* default colors */
+  --alert-color: #d52941;
+  --alert-color-hover: #b72338;
+  --encourage-color: #3a7d44;
+  --encourage-color-hover: #306738;
+  --accent-color-primary: #b3dee2;
+  --accent-color-primary-hover: #83c9d0;
+  --accent-color-secondary: #ffdbda;
+  --accent-color-secondary-hover: #ffaaa8;
+
+  /* fonts */
+  --main-text-font: "Poppins", sans-serif;
+  --secondary-text-font: "Doto,sans-serif";
+  /* shadows */
+  --text-outline: -1px -1px 0 #333333, 1px -1px 0 #333333, -1px 1px 0 #333333,
+    1px 1px 0 #333333;
+  --shadow-soft-fade: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  --shadow-box: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.center-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clickable {
+  cursor: pointer;
+}

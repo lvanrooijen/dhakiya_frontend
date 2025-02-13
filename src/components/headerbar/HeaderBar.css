@@ -1,0 +1,26 @@
+.header-bar-wrapper {
+  padding: 0 12px;
+  border-radius: 3px;
+  height: 63px;
+  width: 93%;
+  display: grid;
+  grid-template-columns: 4fr 3fr 3fr 3fr 3fr;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-bg-contrast-color);
+  color: var(--text-contrast-color);
+}
+
+.header-bar-wrapper > .header-bar-wrapper-options {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+@media screen and (min-width: 1080px) {
+  .header-bar-wrapper {
+    grid-template-columns: 6fr 1.5fr 1.5fr 1.5fr 1.5fr;
+  }
+}

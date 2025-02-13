@@ -1,0 +1,25 @@
+/* css */
+.overview-list-style {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0px;
+  min-width: 90%;
+}
+
+.overview-list-item {
+  height: 30px;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 9px 0 6px 9px;
+  color: var(--text-color);
+  letter-spacing: 1px;
+  text-transform: "capitalize";
+  box-shadow: var(--shadow-soft-fade);
+  font-family: var(--main-text-font);
+}
+
+.overview-list-item:hover {
+  background: var(--primary-hover-color);
+}

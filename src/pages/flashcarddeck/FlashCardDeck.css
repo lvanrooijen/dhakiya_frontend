@@ -1,0 +1,35 @@
+.flashcard-deck-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.flashcard-deck-mode-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px;
+  width: 100%;
+}
+
+.flashcard-deck-wrapper
+  > .flashcard-deck-mode-container
+  > .flashcard-deck-mode-options {
+  width: fit-content;
+  display: flex;
+  border-radius: 3px;
+  border: 2px solid var(--primary-bg-contrast-color);
+}
+.flashcard-deck-wrapper
+  > .flashcard-deck-mode-container
+  > .flashcard-deck-mode-options
+  > span {
+  padding: 9px;
+  cursor: pointer;
+}
+
+.flashcard-deck-mode-selected {
+  background: var(--primary-bg-contrast-color);
+  color: var(--text-contrast-color);
+  text-decoration: underline;
+}

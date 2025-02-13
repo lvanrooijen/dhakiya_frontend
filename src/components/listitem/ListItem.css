@@ -1,0 +1,21 @@
+.list-item-wrapper {
+  list-style-type: none;
+  display: flex;
+  padding: 9px;
+  box-shadow: var(--shadow-box);
+  align-items: center;
+  gap: 9px;
+}
+
+.list-item-option {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.list-item-title {
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-right: auto;
+}

@@ -1,0 +1,23 @@
+.question-container {
+  padding: 18px;
+}
+
+.question-top-section {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 6px;
+  padding: 12px;
+  border: 3px solid var(--primary-bg-contrast-color);
+  border-radius: 3px;
+}
+
+.question-top-section :nth-child(1) {
+  grid-area: 1 / 1 / 2 / 4;
+}
+.question-top-section :nth-child(2) {
+  grid-area: 1 / 5 / 2 / 7;
+}
+.question-top-section :nth-child(3) {
+  grid-area: 2 / 1 / 4 / 7;
+}

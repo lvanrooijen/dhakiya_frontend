@@ -1,0 +1,16 @@
+.form-text-field-wrapper {
+  display: flex;
+  align-items: start;
+  gap: 12px;
+  text-transform: capitalize;
+  padding: 9px;
+  width: 100%;
+}
+
+.form-text-field-wrapper > textarea {
+  resize: none;
+  min-height: 120px;
+  min-width: 240px;
+  border-radius: 3px;
+  font-family: var(--main-text-font);
+}

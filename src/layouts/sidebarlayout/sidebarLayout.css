@@ -1,0 +1,33 @@
+/* css */
+.sidebar-layout-wrapper {
+  position: relative;
+  display: flex;
+  gap: 9px;
+}
+.sidebar-layout-wrapper > .right-panel {
+  width: 30%;
+  gap: 9px;
+  padding: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.sidebar-layout-wrapper > .left-panel {
+  width: 60%;
+  gap: 9px;
+  padding: 9px;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar-layout-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .sidebar-layout-wrapper > .left-panel,
+  .sidebar-layout-wrapper > .right-panel {
+    width: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+/* css */
+.page-layout {
+  min-height: 100vh;
+  min-width: 100;
+  display: flex;
+  position: relative;
+}
+
+.page-content-box {
+  padding: 27px;
+  width: 100%;
+  background-color: var(--primary-bg-color);
+}

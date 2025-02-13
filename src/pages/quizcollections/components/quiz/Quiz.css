@@ -1,0 +1,34 @@
+.quiz-wrapper {
+}
+.quiz-form {
+  border: 2px solid var(--primary-bg-contrast-color);
+  border-radius: 3px;
+  padding: 24px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  position: relative;
+}
+.quiz-form-top-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quiz-form > textarea {
+  width: 100%;
+  border-radius: 3px;
+  resize: none;
+  height: 90px;
+  margin-top: 21px;
+}
+
+.question-answer-header {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
